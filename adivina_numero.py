@@ -41,7 +41,7 @@ def jugador():
 	if opcion_j == 0:
 		pass
 	elif opcion_j == pc:
-		print("\nFelicidades, adivinaste el numero en " + str(n + 1) + " intentos")
+		print("\nFelicidades, " + nombre.capitalize() + "! Adivinaste el numero en " + str(n + 1) + " intentos")
 	else:
 		print("\nNo adivinaste el numero. El numero correcto era " + str(pc))
 
